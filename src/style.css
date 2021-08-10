@@ -1,1 +1,21 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+  background-color: green;
+}
+.card {
+  height: 500px;
+  width: 300px;
+}
+.up {
+  font-size: 80px;
+}
+
+.middle {
+  font-size: 100px;
+}
+.down {
+  font-size: 80px;
+
+  transform: rotate(180deg);
+  margin-top: 100px;
+}
